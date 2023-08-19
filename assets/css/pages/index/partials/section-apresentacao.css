@@ -13,7 +13,7 @@ section.apresentacao .faixa {
   width: 2000px;
   height: 500px;
   background-color: var(--cor-principal);
-  box-shadow: 0 0 50px 0 var(--cor-principal);
+  box-shadow: 0 0 50px 0 #f9f9f9ab;
   position: absolute;
   z-index: 1;
   animation: rodandofaixa 10s linear infinite;
@@ -35,8 +35,7 @@ section.apresentacao .conteudo {
   justify-content: center;
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(0deg, var(--cor-fundo-2), var(--cor-fundo-1));
-  background: -webkit-linear-gradient(0deg, var(--cor-fundo-2), var(--cor-fundo-1));
+  background-color: var(--cor-fundo-1);
   border-radius: 10px;
   padding: 60px 20px;
   position: relative;
@@ -49,7 +48,7 @@ section.apresentacao .conteudo .foto .animation {
   border: 2px dotted var(--cor-principal);
   position: absolute;
   border-radius: 50%;
-  box-shadow: 2px 2px 15px #57dce67c;
+  box-shadow: 2px 2px 15px #8257e671;
   animation: rodandolinha 30s linear infinite;
   z-index: -1;
   opacity: 0.5;
@@ -67,11 +66,11 @@ section.apresentacao .conteudo .foto .linha {
   width: 220px;
   height: 220px;
   border: 10px solid var(--cor-principal);
-  border-top: 10px solid #57dce67c;
-  border-bottom: 10px solid #57dce67c;
+  border-top: 10px solid #8257e671;
+  border-bottom: 10px solid #8257e671;
   position: absolute;
   border-radius: 50%;
-  box-shadow: 2px 2px 15px #57dce67c;
+  box-shadow: 2px 2px 15px #8257e671;
   animation: rodandolinha 10s linear infinite;
 }
 /* Animação que faz a linha girar */
@@ -130,7 +129,7 @@ section.apresentacao .conteudo .links a {
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #92929209;
   border-radius: 10px;
   margin: 10px 0 0 0;
   transition: all 0.3s;
@@ -138,17 +137,18 @@ section.apresentacao .conteudo .links a {
 }
 section.apresentacao .conteudo .links a:hover {
   background-color: rgba(0, 0, 0, 0.1);
+  scale: 1.1;
 }
 section.apresentacao .conteudo .links a:hover .icone img {
   transform: scale(1.2);
 }
 section.apresentacao .conteudo .links a .icone {
-  padding: 15px;
+  padding: 15px 0px 15px 15px;
   height: 100%;
-  background-color: var(--cor-principal);
+  background-color: transparent;
   border-radius: 10px 0 0 10px;
 }
-section.apresentacao .conteudo .links a .icone img {
+section.apresentacao .conteudo .links a .icone svg{
   width: 100%;
   max-width: 35px;
   transition: all 0.3s;

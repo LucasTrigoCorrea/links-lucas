@@ -2,11 +2,12 @@
 :root {
 
   /* Variáveis de Cores */
-  --cor-branco: #FFFFFF;
+  --cor-branco: #F9F9F9;
   --cor-preto: #000000;
-  --cor-principal: #57DDE6;
-  --cor-fundo-1: #0a0a22;
-  --cor-fundo-2: #191933;
+  --cor-principal: #8257E6;
+  --cor-secundaria: #A40EE4;
+  --cor-fundo-1: #13131F;
+  --cor-fundo-2: #0f0f25;
 
   /* Variáveis de Fontes */
   --regular: 'mark-pro-regular';
